@@ -1,3 +1,4 @@
+/*Source: https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker */
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(cacheName).then(function(cache) {
