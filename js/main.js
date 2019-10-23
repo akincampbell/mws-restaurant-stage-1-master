@@ -208,3 +208,9 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+/*JS tabIndex*/
+const appTitle = document.getElementById('appTitle');
+appTitle.tabIndex = 0;
+
+c
